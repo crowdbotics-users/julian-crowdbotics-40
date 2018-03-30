@@ -6,6 +6,7 @@ from django.shortcuts import render
 
 def home(request):
     packages = [
+	{'name':'django-twitter-bootstrap', 'url': 'http://pypi.python.org/pypi/django-twitter-bootstrap/3.3.0'},
     ]
     context = {
         'title': 'julian-crowdbotics-40',
